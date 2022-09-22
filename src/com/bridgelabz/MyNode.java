@@ -15,11 +15,11 @@ public class MyNode<K extends Object> {
 		this.key = key;
 		this.next = null;
 	}
-//	public MyNode() {
-//		super();
-//		this.key = null;
-//		this.next = null;
-//	}
+	public MyNode() {
+		super();
+		this.key = null;
+		this.next = null;
+	}
 	public K getKey() {
 		return  key;
 	}
@@ -31,12 +31,12 @@ public class MyNode<K extends Object> {
 	
 	// Print Linked List
 	public void printLinkedList() {
-		MyNode<K> node = this;
-		while(node.next != null){	    		
-    		System.out.print(node.getKey()+" -> ");
-    		node = node.next;	    		
+		MyNode<K> tempNode = this;
+		while(tempNode.next != null){	    		
+    		System.out.print(tempNode.getKey()+" -> ");
+    		tempNode = tempNode.next;	    		
     	}
-		System.out.print(node.getKey());
+		System.out.print(tempNode.getKey());
 	}
 	
 	 
