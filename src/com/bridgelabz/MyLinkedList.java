@@ -23,12 +23,12 @@ public class MyLinkedList  {
 	        myNode.add(firstNode);
 	        myNode.addAtEnd(thirdNode);
 	        myNode.insert(firstNode, secondNode,thirdNode);
-	        
+	         
 	       // myNode.popAtEnd();
 	        
 	        myNode.search(30);
 	        
-	        //uc 8
+	        //uc 8 
 	        MyNode<Integer> fourthNode = new MyNode<Integer>(40);
 	        myNode.addNewNode(fourthNode);
 	        myNode.printLinkedList();

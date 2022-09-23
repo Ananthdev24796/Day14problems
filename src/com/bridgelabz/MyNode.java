@@ -159,7 +159,7 @@ public class MyNode<K extends Object> implements INode<K>  {
 	}
 	
 	////Add node to linkedlist
-    public void addNewNode(MyNode newNode) {
+    public void addNewNode(MyNode newNode) {   
   	  
     	MyNode resultNode = search(30);	    	
     	newNode.next =  resultNode.next;
