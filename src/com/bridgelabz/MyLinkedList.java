@@ -24,7 +24,7 @@ public class MyLinkedList  {
 	        myNode.addAtEnd(thirdNode);
 	        myNode.insert(firstNode, secondNode,thirdNode);
 	        
-	        myNode.pop();
+	        myNode.popAtEnd();
 	      
 	       
 

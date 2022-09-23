@@ -129,5 +129,18 @@ public class MyNode<K extends Object> implements INode<K>  {
 		this.printLinkedList();
 		
 		}
-	
+	// Delete Last element of linked list
+	public void popAtEnd()
+	{
+		MyNode tempNode = head;
+		while(!tempNode.next.equals(tail)) {
+			tempNode=tempNode.next;
+			
+			
+		}
+				
+		tempNode.next=null;
+		System.out.println("\n After deleting last element");
+		this.printLinkedList();
+	}
 }
