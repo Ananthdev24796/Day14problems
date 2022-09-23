@@ -143,4 +143,18 @@ public class MyNode<K extends Object> implements INode<K>  {
 		System.out.println("\n After deleting last element");
 		this.printLinkedList();
 	}
+	
+	//Find the node
+	public MyNode search(Integer key) {
+		MyNode tempNode = head;
+			while(head != null) {
+				if(tempNode.key == key) {
+					System.out.println("\n"+tempNode.key +"\nsucess");
+				return tempNode ;
+				}
+				tempNode =tempNode.next;
+				}
+			
+			return null;
+	}
 }

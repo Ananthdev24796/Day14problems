@@ -7,4 +7,5 @@ public interface INode<K> {
 	public void insert(MyNode myNode1,MyNode newNode,MyNode myNode3);
 	public void pop();
 	public void popAtEnd();
+	public MyNode search(Integer key);
 }
