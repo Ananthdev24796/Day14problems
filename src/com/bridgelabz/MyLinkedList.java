@@ -28,10 +28,7 @@ public class MyLinkedList  {
 	        
 	        myNode.search(30);
 	        
-	        //uc 8
-	        MyNode<Integer> fourthNode = new MyNode<Integer>(40);
-	        myNode.addNewNode(fourthNode);
-	        myNode.printLinkedList();
+	        
 	       
 
 	}
