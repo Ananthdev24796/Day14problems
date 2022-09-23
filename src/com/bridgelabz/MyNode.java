@@ -113,6 +113,14 @@ public class MyNode<K extends Object> implements INode<K>  {
 		
 	}
 	
+	//Insert
+	public void insert(MyNode myNode1,MyNode newNode,MyNode myNode3) {	
+		myNode1.next =newNode;
+		newNode.next=myNode3;
+		System.out.println("\nAfter instering");
+		this.printLinkedList();
+}
+	
 	
 	 
 }

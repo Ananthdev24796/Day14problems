@@ -20,9 +20,9 @@ public class MyLinkedList  {
 	        
 	        MyNode<Integer> myNode = new MyNode<Integer>();
 	       
-	        myNode.addAtEnd(firstNode);
-	        myNode.addAtEnd(secondNode);
+	        myNode.add(firstNode);
 	        myNode.addAtEnd(thirdNode);
+	        myNode.insert(firstNode, secondNode,thirdNode);
 	      
 	       
 
