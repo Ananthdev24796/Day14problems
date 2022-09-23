@@ -139,7 +139,7 @@ public class MyNode<K extends Object> implements INode<K>  {
 			
 		}
 				
-		tempNode.next=null;
+		tempNode.next=null; 
 		System.out.println("\n After deleting last element");
 		this.printLinkedList();
 	}
