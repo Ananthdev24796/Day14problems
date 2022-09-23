@@ -23,6 +23,8 @@ public class MyLinkedList  {
 	        myNode.add(firstNode);
 	        myNode.addAtEnd(thirdNode);
 	        myNode.insert(firstNode, secondNode,thirdNode);
+	        
+	        myNode.pop();
 	      
 	       
 

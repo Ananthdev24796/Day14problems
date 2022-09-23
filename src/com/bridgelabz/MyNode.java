@@ -121,6 +121,13 @@ public class MyNode<K extends Object> implements INode<K>  {
 		this.printLinkedList();
 }
 	
+	// Delete First element of linked list
 	
-	 
+	public void pop() {
+		this.head = head.getNext();
+		System.out.println("\n After Deleting 1st Element");
+		this.printLinkedList();
+		
+		}
+	
 }
