@@ -117,7 +117,7 @@ public class MyNode<K extends Object> implements INode<K>  {
 	public void insert(MyNode myNode1,MyNode newNode,MyNode myNode3) {	
 		myNode1.next =newNode;
 		newNode.next=myNode3;
-		System.out.println("\nAfter instering");
+		System.out.println("\nAfter inserting"+newNode.key);
 		this.printLinkedList();
 }
 	
@@ -157,4 +157,12 @@ public class MyNode<K extends Object> implements INode<K>  {
 			
 			return null;
 	}
+	
+	////Add node to linkedlist
+    public void addNewNode(MyNode newNode) {
+  	  
+    	MyNode resultNode = search(30);	    	
+    	newNode.next =  resultNode.next;
+    	resultNode.next = newNode;
+    }
 }
