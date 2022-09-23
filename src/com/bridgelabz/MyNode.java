@@ -165,4 +165,17 @@ public class MyNode<K extends Object> implements INode<K>  {
     	newNode.next =  resultNode.next;
     	resultNode.next = newNode;
     }
+  //Delete any node from linkedlist
+    public void removeNode(Integer searchKey) {
+  
+    	MyNode currentNode = head;
+    	while(head!=null) {
+    	
+			if(currentNode.next.key == searchKey) {
+				currentNode.next = currentNode.next.next;
+				return;
+			}			
+			currentNode = currentNode.next;				
+		}	    
+    }
 }

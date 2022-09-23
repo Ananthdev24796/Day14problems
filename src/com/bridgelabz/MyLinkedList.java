@@ -33,7 +33,11 @@ public class MyLinkedList  {
 	        myNode.addNewNode(fourthNode);
 	        myNode.printLinkedList();
 	       
-
+	        // Uc 9 to delete 40 from linked list
+	        
+	        myNode.removeNode(40);
+	        System.out.println("\n After removing 40 from linkedlist");
+	        myNode.printLinkedList();
 	}
 
 }

@@ -8,5 +8,6 @@ public interface INode<K> {
 	public void pop();
 	public void popAtEnd();
 	public MyNode search(Integer key);
-	public void addNewNode(MyNode newNode); 
+	public void addNewNode(MyNode newNode);
+	public void removeNode(Integer searchKey);
 }
